@@ -1,6 +1,6 @@
 /*globals io*/
 window.loading_screen = window.pleaseWait({
-  logo: "https://fontmeme.com/permalink/190206/981b36f477a073de5832a934382d4f6e.png",
+  logo: "https://media.discordapp.net/attachments/719608586216669215/730881600237076580/unknown.png?width=1000&height=333",
   backgroundColor: '#7289DA',
   loadingHtml: "<p id='loading' class='loading-message'>Please wait...</p>"
 });
