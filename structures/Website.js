@@ -30,7 +30,7 @@ class Website {
       clientSecret: 'c9lnuockILAJaVuUsWCT6l2cpY46Yp-L', // This is what the input shoud look like, replace it with your own.
       accessTokenUri: 'https://discordapp.com/api/oauth2/token',
       authorizationUri: 'https://discordapp.com/api/oauth2/authorize',
-      redirectUri: 'https://db-manager.glitch.me/callback', // This is what the input shoud look like, replace it with your own.
+      redirectUri: 'https://advancedbot101.glitch.me', // This is what the input shoud look like, replace it with your own.
       scopes: ['identify']
     };
 
