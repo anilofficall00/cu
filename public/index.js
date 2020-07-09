@@ -3,7 +3,7 @@
 // Login & Fetch Data
 var socket = io();
 var bearer = getCookie("bearer");
-if (!bearer) updateLoadingHTML('<a href="https://discord.com/api/oauth2/authorize?client_id=730883344757162046&redirect_uri=https%3A%2F%2Fapi.advancedbot101.glitch.me%2Fapi%2Fv1%2Fauth%2Fcallback&response_type=code&scope=identify"><button type="button" class="btn btn-dark">Login With Discord</button></a>')
+if (!bearer) updateLoadingHTML('<a href="https://discord.com/api/oauth2/authorize?client_id=730883344757162046&redirect_uri=https%3A%2F%2Fdb-manager.glitch.me%2Fcallback&response_type=code&scope=identify"><button type="button" class="btn btn-dark">Login With Discord</button></a>')
 else socket.emit('getInfo', bearer);
 
 function updateLoadingHTML(html) {
@@ -32,8 +32,8 @@ socket.on('getNewInfo', function() {
 socket.on('getInfo', function(info) {
 
   // Verify Login & Access
-  if (!info) updateLoadingHTML('<a href="https://discord.com/api/oauth2/authorize?client_id=730883344757162046&redirect_uri=https%3A%2F%2Fapi.advancedbot101.glitch.me%2Fapi%2Fv1%2Fauth%2Fcallback&response_type=code&scope=identify"><button type="button" class="btn btn-dark">Login With Discord</button></a>')
-  else if (info === 403) updateLoadingHTML('You do not have access to view this pannel, Try again ');
+  if (!info) updateLoadingHTML('<a href="https://discord.com/api/oauth2/authorize?client_id=730883344757162046&redirect_uri=https%3A%2F%2Fdb-manager.glitch.me%2Fcallback&response_type=code&scope=identify"><button type="button" class="btn btn-dark">Login With Discord</button></a>')
+  else if (info === 403) updateLoadingHTML('Sorry, you don\'t have access to this page...');
   else window.loading_screen.finish();
   
   // Clear Data
