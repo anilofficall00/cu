@@ -2,11 +2,11 @@ const Client = require('./structures/Client');
 const client = new Client();
 
 const options = {
-  mainGuildID: '343572980351107077',
-  inviteChannelID: '456171707607154689',
-  logsChannelID: '468944931529162752',
-  mainGuildName: 'Plexi Development',
-  testingGuildID: '398879191975723017',
+  mainGuildID: '730765533552574464',
+  inviteChannelID: '730877797828001802',
+  logsChannelID: '730877797828001802',
+  mainGuildName: '𝑻𝒉𝒆 𝑯𝒂𝒏𝒈𝒐𝒖𝒕',
+  testingGuildID: '730877797828001802',
 }
 
 client.run(options);

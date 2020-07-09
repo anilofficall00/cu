@@ -26,8 +26,8 @@ class Website {
     });
 
     let ops = {
-      clientId: '467875880794849282', // This is what the input shoud look like, replace it with your own.
-      clientSecret: 'IS782kP-L8zBQCsNQCkNy2rpvN80QSZP', // This is what the input shoud look like, replace it with your own.
+      clientId: '730873403761885294', // This is what the input shoud look like, replace it with your own.
+      clientSecret: 'c9lnuockILAJaVuUsWCT6l2cpY46Yp-L', // This is what the input shoud look like, replace it with your own.
       accessTokenUri: 'https://discordapp.com/api/oauth2/token',
       authorizationUri: 'https://discordapp.com/api/oauth2/authorize',
       redirectUri: 'https://db-manager.glitch.me/callback', // This is what the input shoud look like, replace it with your own.
