@@ -1,30 +1,15 @@
-# hello-express
 
-A server that serves a webpage, its resources, and some data
+# Guardian
 
+[![Discord](https://discordapp.com/api/guilds/313460664699977729/embed.png)](https://discord.gg/qtpgmFe)
 
-## Your Project
-
-On the front-end,
-
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
+A small bot built with a focus on moderation, but an emphasis on fun.
 
 
-## Made by [Glitch](https://glitch.com/)
+<b>Note</b>
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+I do not give you permission to run the bot yourself in any way, shape, or form. This includes downloading the bot and modifying it slightly, then claiming it as your own or claiming you built the bot yourself. The bot's code is opensource to provide examples to others, not to allow you to claim it.
 
-Find out more [about Glitch](https://glitch.com/about).
+<b>Need help?</b>
 
-( ᵔ ᴥ ᵔ )
+You can join the [support server](https://discord.gg/qtpgmFe), and invite the bot using this [link](https://discordapp.com/oauth2/authorize?permissions=2146958591&scope=bot&client_id=329022281013657612).
