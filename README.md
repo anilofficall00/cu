@@ -1,3 +1,3 @@
-# My website!
+# Eru Code Share
 
-https://shrf.xyz
+discord.gg/eru
